@@ -101,6 +101,10 @@ db.bounties.insertMany([
 
 // Update and Delete
 // 1. Update the reward for Polarwind to 10000
+    db.bounties.updateOne(
+        { "name": "Polarwind", "reward": "4000"},
+        {$set: { "name": "Polarwind", "reward": "10000"}},
+    )
 
 // 2. Remove Lokinkajou
 
