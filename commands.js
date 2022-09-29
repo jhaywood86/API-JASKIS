@@ -107,7 +107,9 @@ db.bounties.insertMany([
     )
 
 // 2. Remove Lokinkajou
-
+    db.bounties.deleteOne({"name":"Lokinkajou"})
+    
 // 3. Delete all bounties sent by Songbird
+    db.bounties.deleteMany({"client":"Songbird"})
 
 // 4. Update all captured statuses to true
