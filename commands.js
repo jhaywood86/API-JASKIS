@@ -12,6 +12,9 @@
 
 // ADD THE ANIMAL BOUNTIES
 // 1. Insert the given "Thanoceros" bounty object
+    db.bounties.insertOne( {
+        name: "Thanoceros"
+    })
 
 
 // 2. Query for all bounties in the bounties collection
