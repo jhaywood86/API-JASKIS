@@ -6,6 +6,8 @@
     use jaskis
 
 // 2. Create a collection called bounties
+    db.createCollection('bounties')
+    show collections
 
 
 // ADD THE ANIMAL BOUNTIES
