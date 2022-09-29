@@ -3,7 +3,7 @@
 
 // GETTING STARTED
 // 1. Create a database called jaskis
-  
+    use jaskis
 
 // 2. Create a collection called bounties
 
