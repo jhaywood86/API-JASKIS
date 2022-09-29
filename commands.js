@@ -16,9 +16,8 @@
         name: "Thanoceros"
     })
 
-
 // 2. Query for all bounties in the bounties collection
-
+    db.bounties.find()
 
 // 3. Insert many bounties at once using the given objects
 
